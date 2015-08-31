@@ -26,7 +26,7 @@ public class GeometryLab{
         return rectArea(b, h) * w;
     };
     public double  rectPyramidVol(int  b, int  h, int   w){
-        return (1/3)*rectArea(b, h)*w;
+        return (1.0/3)*rectArea(b, h)*w;
     };
     public double  cylVol(int  r, int  h){
         return circArea(r) * h;
@@ -50,16 +50,16 @@ public class GeometryLab{
         return a*a + b*b;
     };
     public double  sphereVol(int  r){
-        return 4/3 * 3.14 * r * r * r;
+        return 4.0/3 * 3.14 * r * r * r;
     };
     public double  coneVol(int  r,int  h){
-        return 1/3 * 3.14 * r * r * h;
+        return 1.0/3 * 3.14 * r * r * h;
     };
     public double  sphereSurfArea(int  r){
-        return 4 * 3.14 * r * r;
+        return 4.0 * 3.14 * r * r;
     };
     public double  cylSurfArea(int  r,int  h){
-        return 2 * 3.14 * r * h + 2 * 3.14 * r * r;
+        return 2.0 * 3.14 * r * h + 2 * 3.14 * r * r;
     };
     public int  rectPrismSurfArea(int  b,int  h,int  w){
         return 2*b*h + 2*b*w + 2*h*w;
